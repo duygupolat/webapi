@@ -28,8 +28,8 @@ namespace AspNetCoreWebAPI
                     // opts.ListenUnixSocket("/tmp/kestrel-test.sock");
                     //opts.Listen(IPAddress.Loopback, port: 5002);
                     opts.ListenAnyIP(5000);
-                    opts.ListenLocalhost(5004, opts => opts.UseHttps());
-                    opts.ListenLocalhost(5005);
+                    //opts.ListenLocalhost(5004, opts => opts.UseHttps());
+                    //opts.ListenLocalhost(5005);
                 });
                 });
     }
